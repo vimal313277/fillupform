@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>registration</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <meta property="og:image" content="https://img.freepik.com/free-vector/background-with-hand-filling-out-form_23-2147607013.jpg">
+    <script src='main.js'></script>
+</head>
+ <body>
+     <h1><span style="color: blue;"><u>Re</u></span>gistration</h1>
+     <fieldset>
+         <legend><span style="color: red;">P</span>ersonal details</legend>
+         <div class="firstin">
+            <div class="nmi">
+            <label>Full Name</label><br>
+            <input type="text" class="fullnm" placeholder="Enter your name" required> 
+            </div>
+            <div class="nmi">
+            <label>Birth date</label><br>
+            <input type="date" class="fullnm" required>
+            </div>
+            <div class="nmi">
+            <label>Email id</label><br>
+            <input type="text" class="fullnm" placeholder="Enter your Email id">
+            </div>
+         </div>
+
+         <div class="secondin">
+            <div class="nmi">
+                <label>Phone number</label><br>
+                <input type="text" class="fullnm" placeholder="Enter your number" required> 
+                </div><br>
+                <div class="nmi">
+                    <label>Gender</label><br>
+                    <input type="radio" name="gender" value="male">
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="Female">
+                    <label>Female</label>
+                </div>
+                <div class="nmi">
+                    <label>Occupation</label><br>
+                    <select>
+                        <option>web designer</option>
+                        <option>Web developer</option>
+                        <option>java developer</option>
+                    </select>
+                </div>
+         </div>
+     </fieldset>
+    
+     <!-- =========fildset two=======  -->
+
+     <fieldset>
+        <legend><span style="color: red;">P</span>rsonal details</legend>
+        <div class="firstin">
+            <div class="nmi">
+                <label>ID type</label><br>
+                <select class="one">
+                    <option>web Designer id</option>
+                    <option>Web developer id</option>
+                    <option>java developer id</option>
+                </select>
+            </div>
+           <div class="nmi">
+           <label>ID number</label><br>
+           <input type="text" class="fullnm" placeholder="Enter Id Number" required>
+           </div>
+           <div class="nmi">
+           <label>Issuing authority</label><br>
+           <input type="text" class="fullnm" placeholder="Enter your Issuing authority">
+           </div>
+        </div>
+
+        <div class="secondin">
+            <div class="nmi">
+                <label>State of company</label><br>
+                <select>
+                    <option>Gujrat</option>
+                    <option>Tamilnadu</option>
+                    <option>Maharastra</option>
+                </select>
+            </div>
+            <div class="nmi">
+                <label>Issue Date</label><br>
+                <input type="date" class="fullnm" required>
+                </div>
+                <div class="nmi">
+                    <label>Expiry Date</label><br>
+                    <input type="date" class="fullnm" required>
+                    </div>
+        </div>
+    </fieldset>
+    <button class="btn">Next</button>
+
+</body>
+</html>
